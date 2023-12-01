@@ -1,0 +1,116 @@
+body {
+  background-color: #e4ac94;
+  font-family: Markazi;
+  margin: 3rem 5%;
+}
+
+/* #edefee */
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+#logo {
+  width: 40%;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  background-color: #d4654e;
+  border-radius: 30px;
+  height: 2rem;
+  margin-top: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+section {
+  display: flex;
+}
+
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/grooming-6895016_1280.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 30px;
+  margin-top: 2rem;
+}
+#banner_article > p,
+#banner_article > h1 {
+  color: #eec7c2;
+  width: 60%;
+  line-height: 1.5rem;
+}
+
+#card_section > article {
+  background-color: #eec7c2;
+  margin: 1rem 1rem 0 0;
+  border-radius: 30px;
+}
+article {
+  flex: 1;
+  padding: 2%;
+}
+.card_photo {
+  width: 100%;
+}
+footer {
+  display: flex;
+  margin-top: 1rem;
+}
+
+footer div {
+  flex: 1;
+}
+#copyright_text {
+  text-align: end;
+}
+hr {
+  color: black;
+  border: 1px black solid;
+}
+#footer_img {
+  width: 20%;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  #banner_article > p,
+  #banner_article > h1 {
+    color: #eec7c2;
+    width: 80%;
+    line-height: 1.2rem;
+  }
+  section {
+    display: block;
+  }
+}
